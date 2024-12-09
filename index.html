@@ -8,17 +8,23 @@
 
 </head>
 <body>
+    <img src="./images/cart.png" alt="cart">
+    <h1>Shopping List</h1>
     
     <div id="shopping-list">
-        <h1>Shopping List</h1>
+        
         <h2>Add a new item </h2>
         <form id="shoppinglist-form">
-            <input type="text" id="new-item" placeholder="Enter product name"><br>
-            <input type="text" id="new-item" placeholder="Enter category name"><br>
-            <input type="text" id="neww-item" placeholder="Enter Quantity"> <br>
+            <input type="text" id="new-item" placeholder="Enter product name" required><br>
+            <input type="text" id="new-item" placeholder="Enter category name" required><br>
+            <input type="text" id="neww-item" placeholder="Enter Quantity" required> <br>
             <button type="submit">Add</button>
         </form>   
     </div>
+    <ul id="markPurchased">
+
+        
+    </ul>
     <div id="actions">
         <h2>Actions</h2>
         <button type="submit">Mark as purchased</button>
