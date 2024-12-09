@@ -3,35 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive shopping list</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Interactive Shopping List</title>
+    
 </head>
 <body>
-    <h1>Shopping List</h1>
-    
-    <div id="shopping-list">
-        
-        <h2>Add a new item </h2>
-        <form id="shoppinglist-form">
-            <input type="text" id="new-item" placeholder="Enter product name" required><br>
-            <input type="text" id="new-item" placeholder="Enter category name" required><br>
-            <input type="text" id="neww-item" placeholder="Enter Quantity" required> <br>
-            <button type="submit">Add</button>
-            <button type="submit">Clear items</button>
-        </form>   
-    </div>
-    <ul id="markPurchased">
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Shopping List</h1>
+        </div>
+        <p>Select items from categories and add them to your shopping list</p>
+    </header>
 
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Input Section -->
+        <section class="input-section">
+            <h2>Add Your Items</h2>
+            <input type="text" id="item-input" placeholder="Enter item here" />
+            <input type="text" id="item-category" placeholder="Enter item category" />
+            <input type="number" id="item-quantity" min="1" placeholder="Quantity" />
+            <div class="buttons">
+                <button id="add-item">Add Item</button>
+                <button id="clear-list">Clear List</button>
+            </div>
+        </section>
 
-    </ul>
+        <!-- Shopping List Section -->
+        <section class="list-section">
+            <h2>Your Shopping List</h2>
+            <ul id="shopping-list">
+                <!-- List items will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
 
-        <button type="submit">Mark as purchased</button>
-        
-    </div>
-    
-    
-    <script src="index.js"></script> 
-    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Interactive Shopping List. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
