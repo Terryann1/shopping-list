@@ -19,9 +19,12 @@
         <!-- Input Section -->
         <section class="input-section">
             <h2>Add Your Items</h2>
-            <input type="text" id="item-input" placeholder="Enter item here" /><br>
-            <input type="text" id="item-category" placeholder="Enter item category" /><br>
-            <input type="number" id="item-quantity" min="1" placeholder="Quantity" />
+            <label for="text">Product name:</label><br>
+            <input type="text" id="item-input" placeholder="Enter product item" required /><br>
+            <label for="text">Category:</label><br>
+            <input type="text" id="item-category" placeholder="Enter item category" required /><br>
+            <label for="text">Quantity:</label><br>
+            <input type="number" id="item-quantity" min="1" placeholder="Quantity"  required/>
             <div class="button">
                 <button id="add-item">Add Item</button>
                 <button id="clear-list">Clear List</button>
