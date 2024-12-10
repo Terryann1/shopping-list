@@ -45,11 +45,6 @@ header p {
     text-align: center;
 }
 
-
-
-
-
-
 /* Input Section */
 .input-section {
     background-color: #eee8e8;
@@ -77,16 +72,19 @@ header p {
 }
 
 .input-section input:focus {
-    border-color: #5511d3;
+    border-color: #6045a0;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .input-section input#item-input {
     width: calc(70% - 10px);
 }
+.input-section input#item-category {
+    width: calc(70% - 10px);
+}
 
 .input-section input#item-quantity {
-    width: calc(25% - 10px);
+    width: calc(70% - 10px);
     margin-left: 5px;
 }
 
@@ -190,7 +188,7 @@ button {
 .toggle-purchased {
     margin-left: 10px;
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #020216;
     color: white;
     border: none;
     border-radius: 4px;
@@ -198,7 +196,7 @@ button {
 }
 
 .toggle-purchased:hover {
-    background-color: #0056b3;
+    background-color: #6045a0;
 }
 
 /* Add styles for contentEditable items */
@@ -214,17 +212,7 @@ button {
     background-color: #f1f1f1;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #4CAF50; /* Matching header */
-    color: white;
-    text-align: center;
-    padding: 15px 10px;
-    font-size: 0.9rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+
 
 
 
