@@ -4,6 +4,10 @@ body{
     margin: 0%;
     text-align: center;
     min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 
 }
 input[type="text"] {
@@ -23,9 +27,39 @@ input[type="number"]{
     border-radius: 5px;
 
 }
-button[type="submit"]{
-    padding: 10px;
-    border: 2px;
-    margin-right: 10px;
+button{
+    background-color: gray;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+
 }
+button:active{
+    background-color: blue;
+}
+.list-section {
+    
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#shopping-list {
+    list-style-type: none; 
+    padding-left: 10px;
+}
+#shopping-list li {
+    word-spacing: 10px;
+    padding-left: 10px;
+    margin: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+}
+
+
+
+
+
 

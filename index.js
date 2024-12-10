@@ -40,7 +40,7 @@ function renderList() {
         // Item quantity
         const itemQuantityEl = document.createElement('span');
         itemQuantityEl.classList.add('item-quantity');
-        itemQuantityEl.textContent = `x${item.quantity}`;
+        itemQuantityEl.textContent = `${item.quantity}`;
 
         // Purchased toggle button
         const togglePurchasedBtn = document.createElement('button');
@@ -59,7 +59,7 @@ function renderList() {
         listItem.appendChild(togglePurchasedBtn);
 
         // Append the list item to the shopping list
-        shoppingList.appendChild(listItem);
+        shoppingList.appendChild(listItem)
     });
 }
 
