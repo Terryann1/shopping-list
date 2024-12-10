@@ -36,15 +36,6 @@ header h1 {
     margin: 0;
 }
 
-header p {
-    margin: 0; /* Removes extra space around the text */
-    font-size: 1.1em; /* Slightly smaller than the title */
-    font-weight: 300;
-    color: #f0f0f0;
-    flex: 1; /* Makes the paragraph take up remaining space */
-    text-align: center;
-}
-
 /* Input Section */
 .input-section {
     background-color: #eee8e8;
