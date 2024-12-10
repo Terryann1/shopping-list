@@ -42,24 +42,17 @@ header p {
     font-weight: 300;
     color: #f0f0f0;
     flex: 1; /* Makes the paragraph take up remaining space */
-    text-align: left;
+    text-align: center;
 }
 
-/* Cart Icon Styles */
-.cart-icon {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
 
-.cart-icon:hover {
-    transform: scale(1.1);
-}
+
+
+
 
 /* Input Section */
 .input-section {
-    background-color: #ffffff;
+    background-color: #eee8e8;
     padding: 20px;
     width: 100%;
     border-radius: 8px;
@@ -84,7 +77,7 @@ header p {
 }
 
 .input-section input:focus {
-    border-color: #007bff;
+    border-color: #5511d3;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
@@ -115,22 +108,22 @@ button {
 }
 
 #add-item {
-    background-color: grey; /* Green */
+    background-color: #020216;
     color: white;
     cursor: pointer;
 }
 
 #add-item:hover {
-    background-color: #45a049;
+    background-color: #6045a0;
 }
 
 #clear-list {
-    background-color: grey; /* Red */
+    background-color:#020216;
     color: white;
 }
 
 #clear-list:hover {
-    background-color: #e53935;
+    background-color: #6045a0;
 }
 
 /* List Section */
